@@ -3,3 +3,72 @@ body {
   margin: 0;
   padding: 0;
 }
+
+nav {
+  background-color: #1f2937;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  padding: 25px 35px 25px 35px;
+}
+.navLogo {
+  font-size: 24px;
+  margin-left: 30px;
+}
+.navLinks {
+  margin-right: 30px;
+}
+
+menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+main {
+  display: flex;
+  gap: 100px;
+  background-color: #1f2937;
+  color: white;
+  justify-content: center;
+  padding: 40px;
+}
+
+.heading,
+h1 {
+  font-size: 48px;
+}
+
+.heading,
+.description {
+  font-size: 18px;
+}
+
+.button {
+  display: inline-block;
+  padding: 8px 30px;
+  background: linear-gradient(to bottom, #6698e7, #3b82f6);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+.button:hover {
+  background: #3e6cb6;
+}
+
+.mainImage,
+img {
+  border-radius: 400px;
+  height: 450px;
+}
